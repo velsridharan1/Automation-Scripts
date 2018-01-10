@@ -46,7 +46,7 @@ public static WebDriver D1;
 		WebElement HomeElement = D1.findElement(By.className("uxbookA"));
 	    Assert.assertEquals(true, HomeElement.isDisplayed());
 	    D1.close();
-	    System.out.println("Reached the output");
+	    System.out.println("Reached the output1");
 	}
 	
 
