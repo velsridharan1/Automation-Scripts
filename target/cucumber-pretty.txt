@@ -1,0 +1,8 @@
+Feature: Title of your feature
+
+  Scenario: Title of your scenario           [90m# scenarios.feature:2[0m
+    [32mGiven [0m[32mI launch the ultimatix application[0m [90m# StepDefinition.i_launch_the_ultimatix_application()[0m
+    [32mWhen [0m[32mI enter the username[0m                [90m# StepDefinition.i_enter_the_username()[0m
+    [32mAnd [0m[32mI enter the password[0m                 [90m# StepDefinition.i_enter_the_password()[0m
+    [32mAnd [0m[32mI click on the login button[0m          [90m# StepDefinition.i_click_on_the_login_button()[0m
+    [32mThen [0m[32mHomepage should be displayed[0m        [90m# StepDefinition.homepage_should_be_displayed()[0m

@@ -1,0 +1,186 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Title of your scenario",
+        "description": "",
+        "id": "title-of-your-feature;title-of-your-scenario",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11262059862,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "I launch the ultimatix application",
+            "match": {
+              "location": "StepDefinition.i_launch_the_ultimatix_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 100039778,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I enter the username",
+            "match": {
+              "location": "StepDefinition.i_enter_the_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 117517517,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the password",
+            "match": {
+              "location": "StepDefinition.i_enter_the_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9984434257,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I click on the login button",
+            "match": {
+              "location": "StepDefinition.i_click_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2204497768,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Homepage should be displayed",
+            "match": {
+              "location": "StepDefinition.homepage_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Title of your feature",
+    "description": "",
+    "id": "title-of-your-feature",
+    "keyword": "Feature",
+    "uri": "scenarios.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "validation of ATM transaction",
+        "description": "",
+        "id": "my-second-scenario;validation-of-atm-transaction",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 549332,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "launch the ATM application",
+            "match": {
+              "location": "Scenario2StepDefinition.launch_the_ATM_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 173333,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I insert the Debit card",
+            "match": {
+              "location": "Scenario2StepDefinition.i_insert_the_Debit_card()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1010220,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I enter the pin number",
+            "match": {
+              "location": "Scenario2StepDefinition.i_enter_the_pin_number()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 547999,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "provide the amount to be withdrawn",
+            "match": {
+              "location": "Scenario2StepDefinition.provide_the_amount_to_be_withdrawn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 265778,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "choose the receipt print yes/no option",
+            "match": {
+              "location": "Scenario2StepDefinition.choose_the_receipt_print_yes_no_option()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 252888,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I should get the money out of ATM machine",
+            "match": {
+              "location": "Scenario2StepDefinition.i_should_get_the_money_out_of_ATM_machine()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 92000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should get my card out of machine",
+            "match": {
+              "location": "Scenario2StepDefinition.i_should_get_my_card_out_of_machine()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "My second scenario",
+    "description": "",
+    "id": "my-second-scenario",
+    "keyword": "Feature",
+    "uri": "scenarios2.feature"
+  }
+]

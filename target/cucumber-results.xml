@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="23.011579">
+<testcase classname="Title of your feature" name="Title of your scenario" time="23.011579">
+<system-out><![CDATA[Given I launch the ultimatix application....................................passed
+When I enter the username...................................................passed
+And I enter the password....................................................passed
+And I click on the login button.............................................passed
+Then Homepage should be displayed...........................................passed
+]]></system-out>
+</testcase>
+</testsuite>
