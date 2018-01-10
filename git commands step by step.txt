@@ -1,0 +1,8 @@
+git init from the project folder set
+git add *
+git commit -m "first commit"
+git config --global user.email "velsridharan@gmail.com"
+git config --global user.name "Your name"
+git commit -m "first commit"
+git push origin master
+git status
