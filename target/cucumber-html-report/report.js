@@ -43,35 +43,35 @@ formatter.match({
   "location": "StepDefinition.i_launch_the_ultimatix_application()"
 });
 formatter.result({
-  "duration": 11156514318,
+  "duration": 9511553974,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_enter_the_username()"
 });
 formatter.result({
-  "duration": 143090793,
+  "duration": 136881474,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_enter_the_password()"
 });
 formatter.result({
-  "duration": 133617925,
+  "duration": 110615755,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.i_click_on_the_login_button()"
 });
 formatter.result({
-  "duration": 9748369892,
+  "duration": 22170356955,
   "status": "passed"
 });
 formatter.match({
   "location": "StepDefinition.homepage_should_be_displayed()"
 });
 formatter.result({
-  "duration": 2252253217,
+  "duration": 2262946971,
   "status": "passed"
 });
 });
